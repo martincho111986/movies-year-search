@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
-
+// buscador de peliculas por año
 function App() {
   const [year, setYear] = useState(null);
   const [movies, setMovies] = useState([]);
